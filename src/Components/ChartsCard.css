@@ -1,0 +1,52 @@
+.chartscard {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 400px;
+  }
+  
+  .chartscard__thumbnail {
+    width: 120px;
+    height: 90px;
+    margin-right: 16px;
+  }
+  
+  .chartscard__details {
+    flex: 1;
+  }
+  
+  .chartscard__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .chartscard__description {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .chartscard__stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chartscard__stat {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chartscard__stat-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .chartscard__stat-value {
+    font-size: 14px;
+  }
+  
